@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Sven Schnieders</title>
+        <meta name="description" content="Personal website of Sven Schnieders" />
+        <meta name="author" content="Sven Schnieders" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="cc96b91c-d6e2-4b8f-83a3-6e6f371e7921"></script>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            html, body {
+                height: 100%;
+            }
+
+            body {
+                font-family: "JetBrains Mono", monospace;
+                font-size: 12px;
+                line-height: 2;
+                background: #fff;
+                color: #000;
+                text-transform: uppercase;
+            }
+
+            a {
+                color: #000;
+                text-decoration: none;
+                font-weight: 600;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 100%;
+                padding: 60px;
+            }
+
+            .inner {
+                display: flex;
+                align-items: stretch;
+                gap: 60px;
+            }
+
+            .image-side img {
+                max-height: 70vh;
+                max-width: 100%;
+                display: block;
+            }
+
+            .content-side {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                max-width: 700px;
+            }
+
+            h1 {
+                font-size: 14px;
+                font-weight: 600;
+                margin-bottom: 0;
+            }
+
+            .location {
+                font-size: 11px;
+                color: #666;
+                margin-top: -6px;
+            }
+
+            .middle p {
+                margin-bottom: 16px;
+            }
+
+            .middle p:last-child {
+                margin-bottom: 0;
+            }
+
+            @media screen and (max-width: 800px) {
+                .container {
+                    min-height: auto;
+                    padding: 40px 24px;
+                }
+
+                .inner {
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 40px;
+                }
+
+                .image-side img {
+                    max-height: 45vh;
+                    max-width: 100%;
+                }
+
+                .content-side {
+                    gap: 32px;
+                    text-align: center;
+                }
+
+                h1 {
+                    font-size: 13px;
+                }
+
+                .location {
+                    margin-top: -4px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="inner">
+                <div class="image-side">
+                    <img src="photo.webp" alt="Black and white street photograph in Vienna" />
+                </div>
+                <div class="content-side">
+                    <div>
+                        <h1>Sven Schnieders</h1>
+                        <p class="location">Vienna, Austria</p>
+                    </div>
+                    <div class="middle">
+                        <p>
+                            Writing:<br />
+                            <a href="https://unfashionable.blog/">Unfashionable.blog</a>, for some things Harvard suffices; this blog is for the rest.
+                        </p>
+                        <p>
+                            Projects:<br />
+                            <a href="https://interestingreads.net/">InterestingReads</a>, a collection of interesting writings<br />
+                            <a href="https://pdftoepubai.com/">PDF to EPUB</a>, a pdf to epub converter that actually works
+                        </p>
+                        <p>
+                            Previously:<br />
+                            Angellist, Special Projects & Design<br />
+                            Angel Investor<br />
+                            Consulting, Design & Marketing
+                        </p>
+                    </div>
+                    <p>
+                        Contact: <a href="https://x.com/SvenSchnieders">@SvenSchnieders</a>,
+                        <a href="mailto:contact@svenschnieders.com">Email</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
